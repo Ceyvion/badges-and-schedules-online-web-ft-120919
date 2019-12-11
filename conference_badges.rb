@@ -30,11 +30,7 @@ def printer(attendee)
    batch_badge_creator(attendee).each do |badge|
    puts badge 
  end 
-  assign_rooms
-   
-   
-   badges_and_room_assignments = []
-   
-     
-  
+  assign_rooms(attendee).each do |room_assignment|
+    puts room_assignment
+  end   
 end

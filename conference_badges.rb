@@ -31,6 +31,6 @@ def printer(attendee)
    badges_and_room_assignments = []
    
    array.each do |room_assignments|
-     
+    
   
 end
